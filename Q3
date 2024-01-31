@@ -1,0 +1,13 @@
+encrypted = str(input)
+
+encrypted_list = []
+decrypted_list = []
+
+for char in encrypted:
+    encrypted_list.append(char)
+  
+encrypted_list.extend(encrypted_list[:2])
+
+decrypted_list = encrypted_list[2:]
+
+print(decrypted_list)
