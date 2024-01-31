@@ -1,0 +1,8 @@
+money = int(input())
+cost = int(input())
+
+remainder = int(money) % int(cost)
+ride_money = int(money) - int(remainder)
+rides = int(ride_money) / int(cost)
+
+print(int(rides))
