@@ -1,1 +1,14 @@
-p1 = input
+p1 = str(input())
+p2 = str(input())
+p3 = str(input())
+
+if p1 == p2 == p3:
+  return "OK"
+  elif p1 != p2 and p1 != p3
+    return "BOTH MISMATCH"
+  elif p1 != p2 and p1 = p3
+    return "ENTRY 2 MISMATCH"
+  elif p1 != p3 and p1 = p2
+    return "ENTRY 3 MISMATCH"
+  else
+    return "OK"
