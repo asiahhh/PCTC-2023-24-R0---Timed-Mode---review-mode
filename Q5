@@ -1,0 +1,5 @@
+choice = str(input())
+
+if choice = "c":
+  return refills = input()
+  elif choice = 
